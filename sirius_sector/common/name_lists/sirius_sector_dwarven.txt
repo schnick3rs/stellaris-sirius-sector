@@ -9,9 +9,7 @@ sirius_sector_dwarven = {
 
 	ship_names = {
 
-		generic = {
-			Anvil Mountain Fortress Shield
-		}
+		generic =  { "Iron Vanguard" "Molten Pride" "Deepforge" "Anvil's Edge" "Golden Hammer" "Frostbite" "Shardfire" "Drillpiercer" "Rockbreaker" "Earthsplitter" "Titan's Grasp" "Grim Anvil" "Mithril Wing" "Flamewake" "Silver Scythe" "Stoneward" "Voidstrider" "Molten Shield" "Core Hunter" "Dark Furnace" "Obsidian Talon" "Cragscythe" "Ore Reaper" "Basalt Edge" "Volcanic Surge" "Blastfurnace" "Quartz Dagger" "Frostspike" "Steelclad" "Inferno Lance" "Cobalt Warden" "Hearthseeker" "Deepdriller" "Darkpick" "Quarryborn" "Smelter's Wrath" "Goldspire" "Thronebreaker" "Titan's Core" }
 
 		corvette = {}
 
@@ -44,9 +42,7 @@ sirius_sector_dwarven = {
 	}
 
 	fleet_names = {
-		random_names = {
-
-		}
+		random_names = { "The Iron Armada" "Molten Flotilla" "Deepminer's Vanguard" "The Shard Consortium" "Core Seekers" "The Mithril Line" "Flameborn Fleet" "Stonebreakers" "Void Carvers" "The Obsidian Vanguard" "Basalt Marauders" "Oregrinder Collective" "Rockshard Enclave" "Darkforge Crusade" "Coldspire Coalition" "Anvil's Reach" "The Radiant Maw" "Volcanic Clutch" "The Furnace Wings" "Blackpick Vanguard" "The Deepstone Flotilla" "Hearthbringer Brigade" "Golden Vein Explorers" "The Shardfront" "The Frosthammer Syndicate" "Deepdelvers" "Earthpiercer Fleet" "Coldsteel Vanguards" "Void Prospectors" "The Crimson Quarriers" "Coreward Breakers" "Moltenwind Brigade" "The Granite Pathfinders" "Shardstorm Flotilla" "The Obsidian Line" "Forgefire Sentinels" "Ironclad Explorers" "The Blastfurnace Armada" "Golden Rift Fleet" "Coreventurers" }
 		sequential_name = "%O% Formation"
 	}
 
@@ -146,67 +142,28 @@ sirius_sector_dwarven = {
 	planet_names = {
 
 		generic = {
-			names = {
-				DWARF1_PLANET_ThunderStorm DWARF1_PLANET_ThorinsWrath
+			names = { "Kraggoth" "Deepmar" "Moltheim" "Ironreach" "Stalharn" "Fjordane" "Tharnok" "Grimhold" "Obliviron" "Corevane" "Shardmist" "Frosthelm" "Galdros" "Morrdeep" "Zirkstone" "Forgeveil" "Helvault" "Thargrim" "Voldraan" "Oreloch" "Krazforge" "Krynnath" "Stahlmor" "Blackquarry" "Durnak" "Brythar" "Zalthun" "Grimmar" "Volris" "Thrynn" "Ygthor" "Drelmont" "Horrheim" "Dolgrim" "Norrkath" "Kaeldor" "Cragspire" "Ravnyl" "Tyrholm" }
 		}
 
-		pc_desert = {
-			names = {
+		pc_desert = { names = {} }
 
-			}
-		}
+		pc_tropical = { names = {} }
 
-		pc_tropical = {
-			names = {
+		pc_arid = { names = {} }
 
-			}
-		}
+		pc_continental = { names = {} }
 
-		pc_arid = {
-			names = {
+		pc_gaia = { names = {} }
 
-			}
-		}
+		pc_ocean = { names = {} }
 
-		pc_continental = {
-			names = {
+		pc_tundra = { names = {} }
 
-			}
-		}
+		pc_arctic = { names = {} }
 
-		pc_gaia = {
-			names = {
+		pc_savannah = { names = {} }
 
-			}
-		}
-
-		pc_ocean = {
-			names = {
-
-			}
-		}
-
-		pc_tundra = {
-			names = {
-
-			}
-		}
-
-		pc_arctic = {
-			names = {
-
-			}
-		}
-
-		pc_savannah = {
-			names = {
-			}
-		}
-
-		pc_alpine = {
-			names = {
-			}
-		}
+		pc_alpine = { names = {} }
 
 	}
 
@@ -217,14 +174,13 @@ sirius_sector_dwarven = {
 		names1 = {
 			weight = 40
 			first_names_male = {
-				DWARF1_CHR_Hans
+				"Thargrim" "Bolkor" "Dronak" "Gorran" "Veldrik" "Korzun" "Dralmir" "Frolgar" "Norzal" "Tyrgard" "Helrik" "Zandrik" "Dreznok" "Thyrol" "Khelrad" "Fjoldan" "Vorik" "Gralmar" "Thalbor" "Morrdan" "Volrik" "Ygmar" "Durnok" "Kaelgrim" "Ulvar" "Brylok" "Zorvak" "Myrrdan" "Kelrok" "Sorvak" "Frinmar" "Elgran" "Dorthun" "Jorvak" "Taldor" "Ragnor" "Zandrik" "Ysgrim" "Tharsol" "Dolgrim"
 			}
 			first_names_female = {
-				DWARF1_CHR_Appia DWARF1_CHR_Aula DWARF1_CHR_Caesula DWARF1_CHR_Decima DWARF1_CHR_Fausta DWARF1_CHR_Gaia DWARF1_CHR_Gnaea DWARF1_CHR_Hosta DWARF1_CHR_Lucia DWARF1_CHR_Maio DWARF1_CHR_Mamerca DWARF1_CHR_Mania DWARF1_CHR_Marcia DWARF1_CHR_Maxima DWARF1_CHR_Mettia DWARF1_CHR_Mino DWARF1_CHR_Nona DWARF1_CHR_Numeria DWARF1_CHR_Octavia DWARF1_CHR_Paulla DWARF1_CHR_Postuma DWARF1_CHR_Prima DWARF1_CHR_Procula DWARF1_CHR_Publia DWARF1_CHR_Quarta DWARF1_CHR_Quinta DWARF1_CHR_Secunda DWARF1_CHR_Septima DWARF1_CHR_Servia DWARF1_CHR_Sexta DWARF1_CHR_Spuria DWARF1_CHR_Statia DWARF1_CHR_Tertia DWARF1_CHR_Titia DWARF1_CHR_Tiberia DWARF1_CHR_Tulla DWARF1_CHR_Vibia DWARF1_CHR_Volusa DWARF1_CHR_Vopisca
+				"Haldira" "Brynneth" "Kallina" "Morrga" "Thalvra" "Ygritte" "Dreznia" "Vorva" "Helskra" "Fjolda" "Kaelira" "Norzina" "Tyrvla" "Zendara" "Volgna" "Thyldis" "Morrgaen" "Draluna" "Myrrka" "Kelza" "Sorvla" "Frynn" "Elvora" "Drakina" "Grezla" "Mylra" "Jorvia" "Khelra" "Oryntha" "Tarsyn" "Helka" "Ravnya" "Fralina" "Zandora" "Dolmira" "Ysvelda" "Norrla" "Uldine" "Thorska" "Vyrna"
 			}
 			second_names = {
-				DWARF1_CHR_Aburius DWARF1_CHR_Accius DWARF1_CHR_Accoleius DWARF1_CHR_Acilius DWARF1_CHR_Aebutius DWARF1_CHR_Aedinius DWARF1_CHR_Aelius DWARF1_CHR_Aemilius DWARF1_CHR_Albanius DWARF1_CHR_Albatius DWARF1_CHR_Allectius DWARF1_CHR_Amatius DWARF1_CHR_Annius DWARF1_CHR_Antistius DWARF1_CHR_Antius DWARF1_CHR_Antonius DWARF1_CHR_Appuleius DWARF1_CHR_Aquillius DWARF1_CHR_Armenius DWARF1_CHR_Arrius DWARF1_CHR_Arsinius DWARF1_CHR_Artorius DWARF1_CHR_Asinius DWARF1_CHR_Ateius DWARF1_CHR_Atius DWARF1_CHR_Atilius DWARF1_CHR_Atrius DWARF1_CHR_Attius DWARF1_CHR_Aufidius DWARF1_CHR_Aurelius DWARF1_CHR_Aurius DWARF1_CHR_Ausonius DWARF1_CHR_Avidius DWARF1_CHR_Avitus DWARF1_CHR_Axius DWARF1_CHR_Baebius DWARF1_CHR_Balventius DWARF1_CHR_Bantius DWARF1_CHR_Barbatius DWARF1_CHR_Barrius DWARF1_CHR_Betilienus DWARF1_CHR_Betucius DWARF1_CHR_Blandius DWARF1_CHR_Blossius DWARF1_CHR_Bruttius DWARF1_CHR_Bucculeius DWARF1_CHR_Burrienus DWARF1_CHR_Caecilius DWARF1_CHR_Caecina DWARF1_CHR_Caecius DWARF1_CHR_Caedicius DWARF1_CHR_Caelius DWARF1_CHR_Caeparius DWARF1_CHR_Caepasius DWARF1_CHR_Caerellius DWARF1_CHR_Caesennius DWARF1_CHR_Caesetius DWARF1_CHR_Caesius DWARF1_CHR_Caesonius DWARF1_CHR_Caesulenus DWARF1_CHR_Caetronius DWARF1_CHR_Calavius DWARF1_CHR_Calidius DWARF1_CHR_Calpurnius DWARF1_CHR_Calventius DWARF1_CHR_Calvisius DWARF1_CHR_Camillius DWARF1_CHR_Camelius DWARF1_CHR_Canidius DWARF1_CHR_Caninius DWARF1_CHR_Canius DWARF1_CHR_Cantilius DWARF1_CHR_Cantius DWARF1_CHR_Canuleius DWARF1_CHR_Canutius DWARF1_CHR_Carfulenus DWARF1_CHR_Carisius DWARF1_CHR_Carius DWARF1_CHR_Caristanius DWARF1_CHR_Carpinatius DWARF1_CHR_Carteius DWARF1_CHR_Carvilius DWARF1_CHR_Cassius DWARF1_CHR_Castricius DWARF1_CHR_Castrinius DWARF1_CHR_Catius DWARF1_CHR_Catienus DWARF1_CHR_Catilius DWARF1_CHR_Ceionius DWARF1_CHR_Centenius DWARF1_CHR_Cestius DWARF1_CHR_Cicereius DWARF1_CHR_Cilnius DWARF1_CHR_Cincius DWARF1_CHR_Cispius DWARF1_CHR_Claudius DWARF1_CHR_Clodius DWARF1_CHR_Cloelius DWARF1_CHR_Clovius DWARF1_CHR_Cluilius DWARF1_CHR_Cluentius DWARF1_CHR_Cluvius DWARF1_CHR_Cocceius DWARF1_CHR_Cominius DWARF1_CHR_Consentius DWARF1_CHR_Considius DWARF1_CHR_Coponius DWARF1_CHR_Cordius DWARF1_CHR_Corfidius DWARF1_CHR_Cornelius DWARF1_CHR_Cornificius DWARF1_CHR_Coruncanius DWARF1_CHR_Cosconius DWARF1_CHR_Cossinius DWARF1_CHR_Cossutius DWARF1_CHR_Cotius DWARF1_CHR_Cottius DWARF1_CHR_Crassitius DWARF1_CHR_Crepereius DWARF1_CHR_Critonius DWARF1_CHR_Cupiennius DWARF1_CHR_Curiatius DWARF1_CHR_Curius DWARF1_CHR_Curtilia DWARF1_CHR_Curtius DWARF1_CHR_Cuspius DWARF1_CHR_Decimius DWARF1_CHR_Decius DWARF1_CHR_Dellius DWARF1_CHR_Desticius DWARF1_CHR_Dexsius DWARF1_CHR_Didius DWARF1_CHR_Digitius DWARF1_CHR_Dillius DWARF1_CHR_Domitius DWARF1_CHR_Duccius DWARF1_CHR_Duilius DWARF1_CHR_Durmius DWARF1_CHR_Duronius DWARF1_CHR_Egilius DWARF1_CHR_Egnatius DWARF1_CHR_Egnatuleius DWARF1_CHR_Ennius DWARF1_CHR_Epidius DWARF1_CHR_Eppius DWARF1_CHR_Equitius DWARF1_CHR_Erucius DWARF1_CHR_Fabius DWARF1_CHR_Fabricius DWARF1_CHR_Fadius DWARF1_CHR_Faenius DWARF1_CHR_Falcidius DWARF1_CHR_Falerius DWARF1_CHR_Fannius DWARF1_CHR_Farsuleius DWARF1_CHR_Faucius DWARF1_CHR_Favonius DWARF1_CHR_Festinius DWARF1_CHR_Fidiculanius DWARF1_CHR_Flaminius DWARF1_CHR_Flavius DWARF1_CHR_Flavinius DWARF1_CHR_Flavonius DWARF1_CHR_Floridius DWARF1_CHR_Florius DWARF1_CHR_Floronius DWARF1_CHR_Fonteius DWARF1_CHR_Foslius DWARF1_CHR_Fuficius DWARF1_CHR_Fufidius DWARF1_CHR_Fufius DWARF1_CHR_Fulcinius DWARF1_CHR_Fulvius DWARF1_CHR_Fundanus DWARF1_CHR_Furius DWARF1_CHR_Furnia DWARF1_CHR_Gabinius DWARF1_CHR_Galerius DWARF1_CHR_Gallius DWARF1_CHR_Gargonius DWARF1_CHR_Gavius DWARF1_CHR_Geganius DWARF1_CHR_Gellius DWARF1_CHR_Geminius DWARF1_CHR_Genucius DWARF1_CHR_Gessius DWARF1_CHR_Granius DWARF1_CHR_Gratius DWARF1_CHR_Gratidius DWARF1_CHR_Haterius DWARF1_CHR_Heius DWARF1_CHR_Helvidius DWARF1_CHR_Helvius DWARF1_CHR_Herennius DWARF1_CHR_Herminius DWARF1_CHR_Hirrius DWARF1_CHR_Hirtius DWARF1_CHR_Hirtuleius DWARF1_CHR_Horatius DWARF1_CHR_Hortensius DWARF1_CHR_Hosidius DWARF1_CHR_Hostilius DWARF1_CHR_Iccius DWARF1_CHR_Icilius DWARF1_CHR_Insteius DWARF1_CHR_Julius DWARF1_CHR_Junius DWARF1_CHR_Juventius DWARF1_CHR_Laberius DWARF1_CHR_Labienus DWARF1_CHR_Lacerius DWARF1_CHR_Laelius DWARF1_CHR_Laenius DWARF1_CHR_Laetilius DWARF1_CHR_Laetorius DWARF1_CHR_Lafrenius DWARF1_CHR_Lamponius DWARF1_CHR_Laronius DWARF1_CHR_Lartius DWARF1_CHR_Latinius DWARF1_CHR_Lavinius DWARF1_CHR_Lecanius DWARF1_CHR_Lentidius DWARF1_CHR_Liburnius DWARF1_CHR_Licinius DWARF1_CHR_Ligarius DWARF1_CHR_Livius DWARF1_CHR_Lollius DWARF1_CHR_Longinius DWARF1_CHR_Loreius DWARF1_CHR_Lucceius DWARF1_CHR_Lucienus DWARF1_CHR_Lucilius DWARF1_CHR_Lucius DWARF1_CHR_Lucretius DWARF1_CHR_Lurius DWARF1_CHR_Luscius DWARF1_CHR_Lusius DWARF1_CHR_Lutatius DWARF1_CHR_Macrinius DWARF1_CHR_Maecilius DWARF1_CHR_Maecius DWARF1_CHR_Maelius DWARF1_CHR_Maenius DWARF1_CHR_Maevius DWARF1_CHR_Magius DWARF1_CHR_Mallius DWARF1_CHR_Mamilius DWARF1_CHR_Manilia DWARF1_CHR_Manlius DWARF1_CHR_Manilius DWARF1_CHR_Marcius DWARF1_CHR_Marius DWARF1_CHR_Matius DWARF1_CHR_Matienus DWARF1_CHR_Matinius DWARF1_CHR_Matrinius DWARF1_CHR_Maximius DWARF1_CHR_Memmius DWARF1_CHR_Menenius DWARF1_CHR_Menius DWARF1_CHR_Mescinius DWARF1_CHR_Messienus DWARF1_CHR_Messius DWARF1_CHR_Metilius DWARF1_CHR_Mettius DWARF1_CHR_Milonius DWARF1_CHR_Mimesius DWARF1_CHR_Minatius DWARF1_CHR_Minicius DWARF1_CHR_Minidius DWARF1_CHR_Minucius DWARF1_CHR_Modius DWARF1_CHR_Mucius DWARF1_CHR_Mummius DWARF1_CHR_Munatius DWARF1_CHR_Munius DWARF1_CHR_Murrius DWARF1_CHR_Mussidius DWARF1_CHR_Mustius DWARF1_CHR_Mutius DWARF1_CHR_Naevius DWARF1_CHR_Nasennius DWARF1_CHR_Nasidienus DWARF1_CHR_Nasidius DWARF1_CHR_Nautius DWARF1_CHR_Neratius DWARF1_CHR_Nerius DWARF1_CHR_Nigidius DWARF1_CHR_Ninnius DWARF1_CHR_Nipius DWARF1_CHR_Nonius DWARF1_CHR_Norbanus DWARF1_CHR_Novellius DWARF1_CHR_Novius DWARF1_CHR_Numerius DWARF1_CHR_Numicius DWARF1_CHR_Numisius DWARF1_CHR_Numitorius DWARF1_CHR_Nummius DWARF1_CHR_Numonius DWARF1_CHR_Nymphidius DWARF1_CHR_Obellius DWARF1_CHR_Obultronius DWARF1_CHR_Occius DWARF1_CHR_Oclatinius DWARF1_CHR_Oclatius DWARF1_CHR_Octavenus DWARF1_CHR_Octavius DWARF1_CHR_Ofanius DWARF1_CHR_Ofilius DWARF1_CHR_Ogulnius DWARF1_CHR_Ollius DWARF1_CHR_Opellius DWARF1_CHR_Opetreia DWARF1_CHR_Opimius DWARF1_CHR_Opiternia DWARF1_CHR_Oppidius DWARF1_CHR_Oppius DWARF1_CHR_Opsidius DWARF1_CHR_Opsilius DWARF1_CHR_Opsius DWARF1_CHR_Oranius DWARF1_CHR_Orbicius DWARF1_CHR_Orbilius DWARF1_CHR_Orchius DWARF1_CHR_Orcivius DWARF1_CHR_Orfidius DWARF1_CHR_Orfius DWARF1_CHR_Oscius DWARF1_CHR_Ostorius DWARF1_CHR_Otacilius DWARF1_CHR_Ovidius DWARF1_CHR_Ovinius DWARF1_CHR_Paccius DWARF1_CHR_Pacidius DWARF1_CHR_Pacilius DWARF1_CHR_Paconius DWARF1_CHR_Pactumeius DWARF1_CHR_Pacuvius DWARF1_CHR_Palfurius DWARF1_CHR_Palpellius DWARF1_CHR_Pantuleius DWARF1_CHR_Papinius DWARF1_CHR_Papirius DWARF1_CHR_Papius DWARF1_CHR_Pasidienus DWARF1_CHR_Pasidius DWARF1_CHR_Passienus DWARF1_CHR_Patulcius DWARF1_CHR_Pedanius DWARF1_CHR_Pedius DWARF1_CHR_Peducaeus DWARF1_CHR_Peltrasius DWARF1_CHR_Percennius DWARF1_CHR_Perperna DWARF1_CHR_Persius DWARF1_CHR_Pescennius DWARF1_CHR_Petellius DWARF1_CHR_Petillius DWARF1_CHR_Petronius DWARF1_CHR_Pinarius DWARF1_CHR_Pisentius DWARF1_CHR_Placidius DWARF1_CHR_Plautius DWARF1_CHR_Plinius DWARF1_CHR_Plotius DWARF1_CHR_Pollius DWARF1_CHR_Pompeius DWARF1_CHR_Pompilius DWARF1_CHR_Pomponius DWARF1_CHR_Pomptinus DWARF1_CHR_Pontidius DWARF1_CHR_Pontius DWARF1_CHR_Popidius DWARF1_CHR_Poppaeus DWARF1_CHR_Porcius DWARF1_CHR_Portius DWARF1_CHR_Postumius DWARF1_CHR_Potitius DWARF1_CHR_Publicius DWARF1_CHR_Pupius DWARF1_CHR_Quinctilius DWARF1_CHR_Quinctius DWARF1_CHR_Quirinius DWARF1_CHR_Rabirius DWARF1_CHR_Rufius DWARF1_CHR_Rufrius DWARF1_CHR_Rusonius DWARF1_CHR_Rutilius DWARF1_CHR_Sabucius DWARF1_CHR_Sallustius DWARF1_CHR_Salonius DWARF1_CHR_Salvius DWARF1_CHR_Scribonius DWARF1_CHR_Secundinius DWARF1_CHR_Secundius DWARF1_CHR_Seius DWARF1_CHR_Sempronius DWARF1_CHR_Sennius DWARF1_CHR_Sentius DWARF1_CHR_Septimius DWARF1_CHR_Sepunius DWARF1_CHR_Sergius DWARF1_CHR_Sertorius DWARF1_CHR_Servilius DWARF1_CHR_Sestius DWARF1_CHR_Sextilius DWARF1_CHR_Sextius DWARF1_CHR_Sidonius DWARF1_CHR_Silius DWARF1_CHR_Sittius DWARF1_CHR_Socellius DWARF1_CHR_Sornatius DWARF1_CHR_Spurius DWARF1_CHR_Statius DWARF1_CHR_Statilius DWARF1_CHR_Stertinius DWARF1_CHR_Suedius DWARF1_CHR_Sulpicius DWARF1_CHR_Tadius DWARF1_CHR_Tanicius DWARF1_CHR_Tertinius DWARF1_CHR_Tettidius DWARF1_CHR_Tettienus DWARF1_CHR_Tettius DWARF1_CHR_Titiedius DWARF1_CHR_Titius DWARF1_CHR_Titinius DWARF1_CHR_Trebatius DWARF1_CHR_Trebellius DWARF1_CHR_Treblanus DWARF1_CHR_Tremellius DWARF1_CHR_Tuccius DWARF1_CHR_Tullius DWARF1_CHR_Turullius DWARF1_CHR_Ulpius DWARF1_CHR_Umbrius DWARF1_CHR_Ummidius DWARF1_CHR_Urgulanius DWARF1_CHR_Valerius DWARF1_CHR_Varius DWARF1_CHR_Vatinius DWARF1_CHR_Vedius DWARF1_CHR_Velius DWARF1_CHR_Veranius DWARF1_CHR_Verecundius DWARF1_CHR_Vergilius DWARF1_CHR_Verginius DWARF1_CHR_Vesnius DWARF1_CHR_Veturius DWARF1_CHR_Vibenius DWARF1_CHR_Vibidius DWARF1_CHR_Vibius DWARF1_CHR_Victricius DWARF1_CHR_Viducius DWARF1_CHR_Vinicius DWARF1_CHR_Vipsanius DWARF1_CHR_Vipstanus DWARF1_CHR_Viridius DWARF1_CHR_Virius DWARF1_CHR_Visellius DWARF1_CHR_Vitellius DWARF1_CHR_Vitruvius DWARF1_CHR_Volcatius DWARF1_CHR_Volumnius DWARF1_CHR_Volusenna DWARF1_CHR_Volusenus DWARF1_CHR_Volusius DWARF1_CHR_Vulius
-
+				"Ironhand" "Steelvein" "Goldbeard" "Deepstone" "Blackforge" "Oreheart" "Mithrilsoul" "Stonebreaker" "Silverfist" "Orehelm" "Ironhammer" "Rockshaper" "Coldvein" "Deepforge" "Firebraid" "Frostiron" "Darkpick" "Oregrinder" "Quarrier" "Anvilborn" "Shardaxe" "Granitefist" "Earthheart" "Volcanogrip" "Basaltstone" "Cragsoul" "Obsidianfist" "Flamevein" "Hearthforge" "Cobaltblade" "Tunnelsmith" "Hardsmith" "Ironclave" "Riftstone" "Copperjaw" "Smelterkin" "Coreforge" "Drillmaw" "Orethane"
 			}
 			regnal_first_names_male = {
 				DWARF1_CHR_Agrippa DWARF1_CHR_Gaius DWARF1_CHR_Lucius DWARF1_CHR_Marcus DWARF1_CHR_Octavius DWARF1_CHR_Primus DWARF1_CHR_Tiberius DWARF1_CHR_Titus
