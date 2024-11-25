@@ -1,0 +1,184 @@
+﻿### Rebel Guerrillas
+### Created by Moritz
+
+sirius_sector_rebels = {
+	category = "Humanoid"
+	customize_random_override = REB1
+	randomized = no
+	alias = "Rebels1"
+
+	ship_names = {
+
+		generic =  { "Vigilant Star", "Shadow Hunter", "Rebel's Fury", "Wraith's Edge", "Phoenix Blade", "Silent Dawn", "Echo of Mandar", "Liberty's Light", "Wrath of the Forgotten", "Rogue Wave", "Exiled Heart", "Stormbringer", "Ghost Whisperer", "Eclipsed Horizon", "Forgotten Hope", "Freedom's Embrace", "Dark Horizon", "Firestorm's Fury", "Outcast's Fate", "Void Strider", "Rebel's Edge", "Eternal Thunder", "Celestial Rapture", "Specter's Veil", "Steel Dawn", "Forsaken Remnant", "Nightfire", "Betrayer's Call", "Oblivion's Hand", "Nova Blight", "Red Skies", "Exodus Fist", "Veiled Horizon", "Raven's Flight", "Crimson Tempest", "Ironside Requiem", "Solar Storm", "Vanguard's Wrath", "Starlight Reaver", "Twilight Rebellion", "Imperial Shatterer" }
+
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		titan = {}
+
+		colossus = {}
+
+		juggernaut = {}
+
+		science = {}
+
+		colonizer = {}
+
+		sponsored_colonizer = {}
+
+		constructor = {}
+
+		transport = {}
+
+		military_station_small = {}
+
+		ion_cannon = {}
+
+	}
+
+	fleet_names = {
+		random_names = { "Sirius Exiles", "Mandar's Last Stand", "Rebel Vanguard", "The Outcast Armada", "Defiance Fleet", "Silent Rebellion", "The Mandar Liberation", "Fugitive Fleet", "Freedom's Call", "Lone Wolves", "Galactic Guerillas", "The Red Banner", "Fallen Legion", "The Shadow Coalition", "Vanguard of the Lost", "Resistance Legion", "Warborn Exodus", "Brothers of the Void", "Rogue Strikers", "The Last Dawn", "Covenant of the Outcasts", "Wrathful Horizon", "Reckoning Fleet", "Defiant Wings", "Starblades", "Nightfall Resurgence", "Fleet of the Forsaken", "Exile's Fury", "Vanguard of Hope", "Renegade Armada", "The Phantom Force", "Legion of Defiance", "Eternal Rebellion", "Sundown Fleet", "Ravagers of the Void", "Crimson Wave", "Echoes of Mandar", "Rising Tempest", "Relentless Fury", "Unbroken Faith", "Outcast Reapers", "Silent Thunder" }
+		sequential_name = "%O% Formation"
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_defense = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		machine_assault_1 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_2 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_3 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		defense_army = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		assault_army = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		slave_army = {
+			sequential_name = DWARF1_AUXILIA
+		}
+
+		clone_army = {
+			sequential_name = DWARF1_CLONANDI
+		}
+
+		undead_army = {
+			sequential_name = DWARF1_LEGIOHORRORIAE
+		}
+
+		robotic_army = {
+			sequential_name = DWARF1_ROBOTUM
+		}
+
+		robotic_defense_army = {
+			sequential_name = DWARF1_LIMITANEIROBOTUM
+		}
+
+		psionic_army = {
+			sequential_name = DWARF1_LEGIOPSYCHICA
+		}
+
+		xenomorph_army = {
+			sequential_name = DWARF1_BESTIAAUXILIA
+		}
+
+		gene_warrior_army = {
+			sequential_name = DWARF1_LEGIOPRAETORIAE
+		}
+
+		occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		robotic_occupation_army = {
+			sequential_name = DWARF1_ROBOTUMVIGILUM
+		}
+
+		primitive_army = {
+			sequential_name = DWARF1_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = DWARF1_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = DWARF1_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+		    names = { "Mandar V", "Sirius IX", "Velnar", "Zoroth Prime", "Vahla", "Cirox", "Rilux", "Kaebak", "Torath", "Silanar", "Draxos", "Arenos", "Orkya", "Tarhan", "Felos", "Vaskos", "Zynith", "Karthar", "Makroth", "Jekarn", "Itheris", "Vendar", "Azkalan", "Dar'Vosh", "Shorath", "Zantros", "Valara", "Xekros", "Jivak", "Gorrana", "Zythea", "Astra", "Vornak", "Rakhan", "Vashor", "Azmaris", "Rylotha", "Tharok", "Urosin", "Lazurith", "Falorus", "Klyros", "Kernak", "Vandoria" }
+		}
+
+		pc_desert = { names = {} }
+
+		pc_tropical = { names = {} }
+
+		pc_arid = { names = {} }
+
+		pc_continental = { names = {} }
+
+		pc_gaia = { names = {} }
+
+		pc_ocean = { names = {} }
+
+		pc_tundra = { names = {} }
+
+		pc_arctic = { names = {} }
+
+		pc_savannah = { names = {} }
+
+		pc_alpine = { names = {} }
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+            first_names_male = { "Zorik", "Varnak", "Talek", "Gorran", "Rynox", "Havik", "Korrin", "Jarik", "Vethos", "Orak", "Zylar", "Rhoran", "Kazan", "Drekon", "Ivaris", "Torian", "Zarek", "Joran", "Kavok", "Narik", "Eryx", "Sorin", "Torak", "Kaelen", "Marnak", "Zethar", "Korath", "Fenrik", "Draeth", "Rekor", "Nolir", "Jorath", "Volnar", "Kaenor", "Selrik", "Dornak", "Lomar", "Khalor", "Drenok", "Raxor", "Ferik", "Alnar" }
+            first_names_female = { "Siryne", "Nalina", "Vika", "Karnan", "Zarika", "Lira", "Thena", "Selina", "Aelith", "Kavira", "Yvara", "Kyra", "Thessa", "Leira", "Fenya", "Marath", "Zalyra", "Vyria", "Lirae", "Jevira", "Zothra", "Inara", "Velen", "Ireth", "Thyra", "Vora", "Cythra", "Diora", "Anara", "Rika", "Raelys", "Tessira", "Xylena", "Valora", "Sarika", "Lyria", "Kyrena", "Nalira", "Tharza", "Nyria", "Alythra", "Zevira", "Meira", "Vora", "Yenira" }
+            second_names = { "Kal'dan", "Tharros", "Velka", "Rilthan", "Korva", "Drexon", "Valthar", "Xyron", "Rorith", "Talos", "Keth", "Draxx", "Vaxir", "Hirvon", "Kevar", "Orsak", "Raza", "Shren", "Krivar", "Ferran", "Jorik", "Draka", "Azim", "Kerik", "Rathos", "Valon", "Zeroth", "Silar", "Vorkan", "Khoras", "Zephyr", "Traxx", "Kellin", "Zirn", "Dalar", "Zyros", "Tharvin", "Korath", "Rynar", "Darok", "Veldan", "Sarith", "Eryx", "Hakar", "Valorn" }
+			regnal_first_names_male = {}
+			regnal_first_names_female = {}
+			regnal_second_names = {}
+		}
+	}
+}
