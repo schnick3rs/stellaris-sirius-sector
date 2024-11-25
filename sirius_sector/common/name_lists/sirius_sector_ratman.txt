@@ -1,7 +1,7 @@
-﻿### Dwarven
+﻿### Ratman
 ### Created by Moritz
 
-sirius_sector_dwarven = {
+sirius_sector_ratman = {
 	category = "Humanoid"
 	customize_random_override = DWA1
 	randomized = no

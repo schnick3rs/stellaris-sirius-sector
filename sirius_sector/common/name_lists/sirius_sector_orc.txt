@@ -1,0 +1,184 @@
+﻿### Ork
+### Created by Moritz
+
+sirius_sector_orcish = {
+	category = "Humanoid"
+	customize_random_override = DWA1
+	randomized = no
+	alias = "Dwarf1"
+
+	ship_names = {
+
+		generic =  { "Blood Reaver", "Iron Whelp", "Mourncrusher", "Skullfury", "Warthammer", "Stormcrusher", "Deathbane", "Grimmaw", "Gorehowl", "Firefang", "Thundercaller", "Graveshadow", "Battleflame", "Viperstrike", "Dreadmaw", "Skullcrusher", "Ravager", "Frostfang", "Vengeance", "Ironclaw", "Scourge", "Stormtalon", "Slaughterhorn", "Earthsplitter", "Blazeheart", "Stormfang", "Darkfang", "Bonecrusher", "Savagereign", "Furyclaw", "Ashbringer", "Warlord’s Wrath", "Skyrender", "Ironstorm", "Bloodstorm", "Thunderstrike", "Firewraith", "Wrathbringer", "Deathslayer", "Frostreaver", "Vengeful Spirit", "Hellrage" }
+
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		titan = {}
+
+		colossus = {}
+
+		juggernaut = {}
+
+		science = {}
+
+		colonizer = {}
+
+		sponsored_colonizer = {}
+
+		constructor = {}
+
+		transport = {}
+
+		military_station_small = {}
+
+		ion_cannon = {}
+
+	}
+
+	fleet_names = {
+		random_names = { "Dark Reavers", "Ironclaw Legion", "Bloodstrike", "Frost Warriors", "Storm Raiders", "Goreclaw Marauders", "Savage Dawn", "Wrathbringers", "Bloodmaw Armada", "Grimblades", "Crimson Vanguards", "Burning Wrath", "Death’s Fangs", "Rage of the Clans", "Frosthowl Fleet", "Skull Coalition", "Ironwrath Fleet", "Stormhammer Legion", "Ravager Fleet", "Blightfang Armada", "Hellfire Reavers", "Warlord's Fury", "Bloodfury Armada", "Shadow Raiders", "Dreadstrike Fleet", "Iron Fury Armada", "Murderous Horde", "The Vengeful Ones", "Slaughterfleet", "Gorebringers", "Furyclaws Fleet", "Warlord’s Scorn", "Gravehunters", "Thundering Horde", "Darkclaw Armada", "Rageborn Fleet", "Ironheart Vanguard", "Bloodhowl Fleet", "Blazebound Raiders", "Grimmaw Horde", "Wretched Fangs" }
+		sequential_name = "%O% Formation"
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_defense = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		machine_assault_1 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_2 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_3 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		defense_army = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		assault_army = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		slave_army = {
+			sequential_name = DWARF1_AUXILIA
+		}
+
+		clone_army = {
+			sequential_name = DWARF1_CLONANDI
+		}
+
+		undead_army = {
+			sequential_name = DWARF1_LEGIOHORRORIAE
+		}
+
+		robotic_army = {
+			sequential_name = DWARF1_ROBOTUM
+		}
+
+		robotic_defense_army = {
+			sequential_name = DWARF1_LIMITANEIROBOTUM
+		}
+
+		psionic_army = {
+			sequential_name = DWARF1_LEGIOPSYCHICA
+		}
+
+		xenomorph_army = {
+			sequential_name = DWARF1_BESTIAAUXILIA
+		}
+
+		gene_warrior_army = {
+			sequential_name = DWARF1_LEGIOPRAETORIAE
+		}
+
+		occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		robotic_occupation_army = {
+			sequential_name = DWARF1_ROBOTUMVIGILUM
+		}
+
+		primitive_army = {
+			sequential_name = DWARF1_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = DWARF1_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = DWARF1_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+		    names = { "Ghoral", "Drox", "Varkor", "Nargath", "Hulgar", "Thornax", "Kharvak", "Gorathis", "Kharok", "Zarvox", "Rhul", "Gragh", "Mok’zar", "Vulkar", "Skorvath", "Thurim", "Karnok", "Gordak", "Frakal", "Tormas", "Ujorn", "Krendar", "Zalthor", "Grimal", "Xorath", "Valkor", "Kraxon", "Thros", "Qalthar", "Nalarok", "Gorak", "Mok’tar", "Korloth", "Yothir", "Thalgar", "Grelkath", "Mak’Rok", "Varkath", "Nar’gor", "Ul’gar", "Frolka", "Garrath" }
+		}
+
+		pc_desert = { names = {} }
+
+		pc_tropical = { names = {} }
+
+		pc_arid = { names = {} }
+
+		pc_continental = { names = {} }
+
+		pc_gaia = { names = {} }
+
+		pc_ocean = { names = {} }
+
+		pc_tundra = { names = {} }
+
+		pc_arctic = { names = {} }
+
+		pc_savannah = { names = {} }
+
+		pc_alpine = { names = {} }
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+			first_names_male = { "Gorak", "Brakthar", "Ugar", "Thok", "Zarvok", "Karnak", "Vorak", "Grull", "Hrog", "Kork", "Krathok", "Drog", "Thrall", "Bargok", "Grak", "Skor", "Mograth", "Tormok", "Frazak", "Kraknar", "Varak", "Drovak", "Moktar", "Gorath", "Rhal", "Balkor", "Mak’Rok", "Narkoth", "Varrak", "Druk”, "Thraknar", "Skoll", "Jarrak", "Ulgar", "Krag", "Grith", "Torath", "Kriv", "Wulgar", "Horrak" }
+			first_names_female = { "Kharra", "Gorza", "Nokla", "Ygrath", "Brakla", "Rokka", "Throka", "Xara", "Zogka", "Fraltha", "Vulga", "Krala", "Tarnak", "Torga", "Vurka", "Kalna", "Lugra", "Zarva", "Skotha", "Ulga", "Morga", "Gatha", "Krelka", "Bolgna", "Horna", "Rava", "Ghorla", "Vornika", "Gralka", "Makra", "Ugra", "Torva", "Fekra", "Zalka", "Shraza", "Vraka", "Ulza", "Tralna", "Kritha", "Nalga", "Rolka", "Wula", "Varksha" }
+			second_names = { "Ironskull", "Thundershield", "Bloodfang", "Stonefist", "Warborn", "Deathbringer", "Grimstone", "Blightfire", "Stormrage", "Ironfury", "Deathclaw", "Rageflame", "Scalebreaker", "Skullsplitter", "Hellstorm", "Blazeclaw", "Ironclaw", "Flamestrike", "Frostwrath", "Skullcrush", "Darkflame", "Mournwhisper", "Frostfang", "Ravenskull", "Skyrender", "Thornhammer", "Gorefist", "Searflame", "Warstrike", "Dreadstorm", "Bloodreaver", "Warfury", "Stoneclaw", "Gravehowl", "Gorehammer", "Stormstrike", "Dreadfang", "Soulcrusher", "Frostbite", "Gorewhisper", "Ironrage", "Gravebringer", "Stormbreaker", "Vengefulflame" }
+			regnal_first_names_male = {}
+			regnal_first_names_female = {}
+			regnal_second_names = {}
+		}
+	}
+}
