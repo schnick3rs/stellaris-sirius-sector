@@ -40,8 +40,8 @@ DwarfGuilds = {
 	}
 
 	fleet_names = {
-		random_names = { "The Iron Armada" "Molten Flotilla" "Deepminer's Vanguard" "The Shard Consortium" "Core Seekers" "The Mithril Line" "Flameborn Fleet" "Stonebreakers" "Void Carvers" "The Obsidian Vanguard" "Basalt Marauders" "Oregrinder Collective" "Rockshard Enclave" "Darkforge Crusade" "Coldspire Coalition" "Anvil's Reach" "The Radiant Maw" "Volcanic Clutch" "The Furnace Wings" "Blackpick Vanguard" "The Deepstone Flotilla" "Hearthbringer Brigade" "Golden Vein Explorers" "The Shardfront" "The Frosthammer Syndicate" "Deepdelvers" "Earthpiercer Fleet" "Coldsteel Vanguards" "Void Prospectors" "The Crimson Quarriers" "Coreward Breakers" "Moltenwind Brigade" "The Granite Pathfinders" "Shardstorm Flotilla" "The Obsidian Line" "Forgefire Sentinels" "Ironclad Explorers" "The Blastfurnace Armada" "Golden Rift Fleet" "Coreventurers" }
-		sequential_name = "%O% Formation"
+		random_names = { DWARFGUILDS_FLEET_Ironarmada DWARFGUILDS_FLEET_Moltenflotilla "Deepminer's Vanguard" "The Shard Consortium" "Core Seekers" "The Mithril Line" "Flameborn Fleet" "Stonebreakers" "Void Carvers" "The Obsidian Vanguard" "Basalt Marauders" "Oregrinder Collective" "Rockshard Enclave" "Darkforge Crusade" "Coldspire Coalition" "Anvil's Reach" "The Radiant Maw" "Volcanic Clutch" "The Furnace Wings" "Blackpick Vanguard" "The Deepstone Flotilla" "Hearthbringer Brigade" "Golden Vein Explorers" "The Shardfront" "The Frosthammer Syndicate" "Deepdelvers" "Earthpiercer Fleet" "Coldsteel Vanguards" "Void Prospectors" "The Crimson Quarriers" "Coreward Breakers" "Moltenwind Brigade" "The Granite Pathfinders" "Shardstorm Flotilla" "The Obsidian Line" "Forgefire Sentinels" "Ironclad Explorers" "The Blastfurnace Armada" "Golden Rift Fleet" "Coreventurers" }
+		sequential_name = DWARFGUILDS_FLEET_Sequential
 	}
 
 	army_names = {
@@ -181,14 +181,13 @@ DwarfGuilds = {
 				"Ironhand" "Steelvein" "Goldbeard" "Deepstone" "Blackforge" "Oreheart" "Mithrilsoul" "Stonebreaker" "Silverfist" "Orehelm" "Ironhammer" "Rockshaper" "Coldvein" "Deepforge" "Firebraid" "Frostiron" "Darkpick" "Oregrinder" "Quarrier" "Anvilborn" "Shardaxe" "Granitefist" "Earthheart" "Volcanogrip" "Basaltstone" "Cragsoul" "Obsidianfist" "Flamevein" "Hearthforge" "Cobaltblade" "Tunnelsmith" "Hardsmith" "Ironclave" "Riftstone" "Copperjaw" "Smelterkin" "Coreforge" "Drillmaw" "Orethane"
 			}
 			regnal_first_names_male = {
-				DWARF1_CHR_Agrippa DWARF1_CHR_Gaius DWARF1_CHR_Lucius DWARF1_CHR_Marcus DWARF1_CHR_Octavius DWARF1_CHR_Primus DWARF1_CHR_Tiberius DWARF1_CHR_Titus
-			}
+                "Thargrim" "Bolkor" "Dronak" "Gorran" "Veldrik" "Korzun" "Dralmir" "Frolgar" "Norzal" "Tyrgard" "Helrik" "Zandrik" "Dreznok" "Thyrol" "Khelrad" "Fjoldan" "Vorik" "Gralmar" "Thalbor" "Morrdan" "Volrik" "Ygmar" "Durnok" "Kaelgrim" "Ulvar" "Brylok" "Zorvak" "Myrrdan" "Kelrok" "Sorvak" "Frinmar" "Elgran" "Dorthun" "Jorvak" "Taldor" "Ragnor" "Zandrik" "Ysgrim" "Tharsol" "Dolgrim"
+            }
 			regnal_first_names_female = {
-				DWARF1_CHR_Appia DWARF1_CHR_Decima DWARF1_CHR_Fausta DWARF1_CHR_Lucia DWARF1_CHR_Numeria DWARF1_CHR_Octavia DWARF1_CHR_Procula DWARF1_CHR_Vopisca
-
-			}
+                "Haldira" "Brynneth" "Kallina" "Morrga" "Thalvra" "Ygritte" "Dreznia" "Vorva" "Helskra" "Fjolda" "Kaelira" "Norzina" "Tyrvla" "Zendara" "Volgna" "Thyldis" "Morrgaen" "Draluna" "Myrrka" "Kelza" "Sorvla" "Frynn" "Elvora" "Drakina" "Grezla" "Mylra" "Jorvia" "Khelra" "Oryntha" "Tarsyn" "Helka" "Ravnya" "Fralina" "Zandora" "Dolmira" "Ysvelda" "Norrla" "Uldine" "Thorska" "Vyrna"
+            }
 			regnal_second_names = {
-				DWARF1_CHR_Antonius DWARF1_CHR_Aurelius DWARF1_CHR_Domitius DWARF1_CHR_Fabius DWARF1_CHR_Valerius DWARF1_CHR_Egnatius
+				"Ironhand" "Steelvein" "Goldbeard" "Deepstone" "Blackforge" "Oreheart" "Mithrilsoul" "Stonebreaker" "Silverfist" "Orehelm" "Ironhammer" "Rockshaper" "Coldvein" "Deepforge" "Firebraid" "Frostiron" "Darkpick" "Oregrinder" "Quarrier" "Anvilborn" "Shardaxe" "Granitefist" "Earthheart" "Volcanogrip" "Basaltstone" "Cragsoul" "Obsidianfist" "Flamevein" "Hearthforge" "Cobaltblade" "Tunnelsmith" "Hardsmith" "Ironclave" "Riftstone" "Copperjaw" "Smelterkin" "Coreforge" "Drillmaw" "Orethane"
 			}
 		}
 	}
