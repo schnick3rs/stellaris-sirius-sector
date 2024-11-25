@@ -1,7 +1,7 @@
 ﻿### Dwarv Guilds
 ### Created by Moritz
 
-DwarfGuilds = {
+ DWARFGUILDS = {
 
     selectable = { always = yes }
 
