@@ -1,0 +1,182 @@
+﻿### Alien Hives
+### Created by Moritz
+
+SOULSNATCHERCULTS = {
+
+    selectable = { always = yes }
+
+	ship_names = {
+
+		generic =  { "X" }
+
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		titan = {}
+
+		colossus = {}
+
+		juggernaut = {}
+
+		science = {}
+
+		colonizer = {}
+
+		sponsored_colonizer = {}
+
+		constructor = {}
+
+		transport = {}
+
+		military_station_small = {}
+
+		ion_cannon = {}
+
+	}
+
+	fleet_names = {
+		random_names = { "X" }
+		sequential_name = "%O% Formation"
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_defense = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		machine_assault_1 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_2 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_3 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		defense_army = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		assault_army = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		slave_army = {
+			sequential_name = DWARF1_AUXILIA
+		}
+
+		clone_army = {
+			sequential_name = DWARF1_CLONANDI
+		}
+
+		undead_army = {
+			sequential_name = DWARF1_LEGIOHORRORIAE
+		}
+
+		robotic_army = {
+			sequential_name = DWARF1_ROBOTUM
+		}
+
+		robotic_defense_army = {
+			sequential_name = DWARF1_LIMITANEIROBOTUM
+		}
+
+		psionic_army = {
+			sequential_name = DWARF1_LEGIOPSYCHICA
+		}
+
+		xenomorph_army = {
+			sequential_name = DWARF1_BESTIAAUXILIA
+		}
+
+		gene_warrior_army = {
+			sequential_name = DWARF1_LEGIOPRAETORIAE
+		}
+
+		occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		robotic_occupation_army = {
+			sequential_name = DWARF1_ROBOTUMVIGILUM
+		}
+
+		primitive_army = {
+			sequential_name = DWARF1_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = DWARF1_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = DWARF1_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+		    names = { "X" }
+		}
+
+		pc_desert = { names = {} }
+
+		pc_tropical = { names = {} }
+
+		pc_arid = { names = {} }
+
+		pc_continental = { names = {} }
+
+		pc_gaia = { names = {} }
+
+		pc_ocean = { names = {} }
+
+		pc_tundra = { names = {} }
+
+		pc_arctic = { names = {} }
+
+		pc_savannah = { names = {} }
+
+		pc_alpine = { names = {} }
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+            first_names_male = { "X" }
+            first_names_female = { "X" }
+            second_names = { "X" }
+			regnal_first_names_male = {}
+			regnal_first_names_female = {}
+			regnal_second_names = {}
+		}
+	}
+}
