@@ -1,0 +1,184 @@
+﻿### Saurian
+### Created by Moritz
+
+sirius_sector_darkelven = {
+	category = "Humanoid"
+	customize_random_override = DAR1
+	randomized = no
+	alias = "DarkElvish1"
+
+	ship_names = {
+
+		generic =  { "Viper's Fang" "Shadowstrike" "Doombringer" "Venomous Star" "Dark Prowler" "Black Vengeance" "Phantom's Edge" "Nightblade" "Bloodstorm" "Dark Whisper" "Silent Hunter" "Hellfire Shroud" "Nightfall" "Shattered Hope" "Blighted Justice" "Vortex Reaver" "Death's Herald" "Ghost Serpent" "Chaos Scythe" "Nightstalker" "Ashen Dawn" "Twilight's Curse" "Dreadstorm" "Void's Bane" "Raven's Flight" "Silver Widow" "Wraithwalker" "Obsidian Eclipse" "Stormslayer" "Infernal Tempest" "Eternal Night" "Celestial Warden" "Iron Fang" "Silent Storm" "Thunder's Vengeance" "Death's Shadow" "Vigilant Fury" "Hell's Forge" "Dark Phoenix" "Blightwing" "Warp Reaver" "Black Serpent" }
+
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		titan = {}
+
+		colossus = {}
+
+		juggernaut = {}
+
+		science = {}
+
+		colonizer = {}
+
+		sponsored_colonizer = {}
+
+		constructor = {}
+
+		transport = {}
+
+		military_station_small = {}
+
+		ion_cannon = {}
+
+	}
+
+	fleet_names = {
+		random_names = { "Sable Legion" "Ravager Fleet" "Ghost Marauders" "Scavenger Pact" "Vengeful Reavers" "Doomfront Fleet" "Ashen Horde" "Fury Legion" "Iron Wraiths" "Obsidian Horde" "Eclipse Vanguard" "Crimson Wrath" "Wraith Coalition" "Revenant Scourge" "Dark Crusaders" "Vanguard of Ruin" "Frostbane Fleet" "Wicked Dominion" "Ravenfleet" "Fallen Stars" "Abyssal Raiders" "Voidborn Raiders" "Black Wrath" "Stormcaller Fleet" "Iron Fangs" "Ember Marauders" "Wraithwing Fleet" "Bloodwings" "Hell's Legion" "Night's Edge" "Vanguard of the Forsaken" "Red Reavers" "Venomous Scourge" "Specter Fleet" "Blightbringers" "Venom's Claw" "Ravager Horde" "Voidstalkers" "Bloodbound Fleet" "Infernal Ascendants" }
+		sequential_name = "%O% Formation"
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_defense = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		machine_assault_1 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_2 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_3 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		defense_army = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		assault_army = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		slave_army = {
+			sequential_name = DWARF1_AUXILIA
+		}
+
+		clone_army = {
+			sequential_name = DWARF1_CLONANDI
+		}
+
+		undead_army = {
+			sequential_name = DWARF1_LEGIOHORRORIAE
+		}
+
+		robotic_army = {
+			sequential_name = DWARF1_ROBOTUM
+		}
+
+		robotic_defense_army = {
+			sequential_name = DWARF1_LIMITANEIROBOTUM
+		}
+
+		psionic_army = {
+			sequential_name = DWARF1_LEGIOPSYCHICA
+		}
+
+		xenomorph_army = {
+			sequential_name = DWARF1_BESTIAAUXILIA
+		}
+
+		gene_warrior_army = {
+			sequential_name = DWARF1_LEGIOPRAETORIAE
+		}
+
+		occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		robotic_occupation_army = {
+			sequential_name = DWARF1_ROBOTUMVIGILUM
+		}
+
+		primitive_army = {
+			sequential_name = DWARF1_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = DWARF1_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = DWARF1_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+		    names = { "Sarnath" "Xerathis" "Draegon" "Hekara" "Vorthun" "Zaphros" "Narithas" "Korath" "Esila" "Ythar" "Volmar" "Kavon" "Tareth" "Valrune" "Ashmara" "Selkaris" "Thyrion" "Vendaris" "Ikhanos" "Gorath" "Ulmaris" "Itharos" "Vraxion" "Dretor" "Sorna" "Kesh" "Maelkar" "Valkiros" "Thalrek" "Vorash" "Niroth" "Zaldran" "Belvath" "Jorrin" "Rakthorn" "Draxios" "Valthos" "Zephros" "Volkar" "Drogoth" "Ilthera" "Khorathis" "Mordar" }
+		}
+
+		pc_desert = { names = {} }
+
+		pc_tropical = { names = {} }
+
+		pc_arid = { names = {} }
+
+		pc_continental = { names = {} }
+
+		pc_gaia = { names = {} }
+
+		pc_ocean = { names = {} }
+
+		pc_tundra = { names = {} }
+
+		pc_arctic = { names = {} }
+
+		pc_savannah = { names = {} }
+
+		pc_alpine = { names = {} }
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+            first_names_male = { "Velthar" "Raxos" "Kaelon" "Drathar" "Althorn" "Veklor" "Vernath" "Malrix" "Sarnak" "Draxos" "Thalros" "Velkar" "Darthan" "Hadar" "Nyras" "Zarath" "Orin" "Kerath" "Gorak" "Zarek" "Halvor" "Rothos" "Sithar" "Rhaegar" "Kalthor" "Rhanor" "Torin" "Lokar" "Thalder" "Vornek" "Othar" "Vernox" "Khorin" "Valgar" "Ishnar" "Korath" "Joran" "Malkor" "Xarros" "Veldrin" "Narven" "Tronar" }
+            first_names_female = { "Zarima" "Nyrah" "Lirael" "Aeshira" "Velyra" "Rotha" "Tessa" "Xyra" "Valrasha" "Karael" "Eryna" "Ilena" "Zorra" "Xelara" "Luna" "Valkira" "Thyra" "Alara" "Inara" "Syndra" "Nirra" "Veyra" "Lana" "Tara" "Serena" "Alyra" "Eilena" "Rylara" "Yvra" "Kiera" "Korasha" "Jelina" "Seshira" "Miriel" "Zharra" "Ilara" "Thessia" "Mara" "Karina" "Azara" "Sarrah" "Leira" "Virra" "Cyra" }
+            second_names = { "Nexus" "Drax" "Vorn" "Raith" "Zalor" "Krell" "Korr" "Rynar" "Volkar" "Vex" "Omar" "Torin" "Malthor" "Tharax" "Irion" "Drel" "Zithar" "Rakhos" "Sethar" "Roxar" "Ylros" "Korrin" "Drelos" "Valrune" "Tarnak" "Bran" "Celes" "Vethar" "Keran" "Talon" "Rorth" "Shayle" "Maris" "Khoran" "Thras" "Warin" "Dreth" "Valor" "Vexis" "Kralthar" "Zyros" "Bren" "Gylos" "Tarnis" "Ryx" "Feyran" }
+			regnal_first_names_male = {}
+			regnal_first_names_female = {}
+			regnal_second_names = {}
+		}
+	}
+}

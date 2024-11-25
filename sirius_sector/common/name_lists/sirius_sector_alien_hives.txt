@@ -1,15 +1,15 @@
-﻿### Ratman
+﻿### Alien Hives
 ### Created by Moritz
 
-sirius_sector_ratman = {
-	category = "Mammalian"
-	customize_random_override = DWA1
+sirius_sector_alienhives = {
+	category = "Reptilian"
+	customize_random_override = ALI1
 	randomized = no
-	alias = "Dwarf1"
+	alias = "Alien1"
 
 	ship_names = {
 
-		generic =  { "The Scavenger's Wrath" "Razorback" "Clanwarrior" "Vissarion's Pride" "Darkslaughter" "Fangstorm" "Ironclaw" "Starborn Hunt" "Scrap Marauder" "The Last Flee" "Gritfang" "Varran Hunter" "Dreadflame" "The Wretched Fang" "Thornshard" "Nightsworn" "Shattered Howl" "Scavenger's Grin" "Ashblade" "Stormbreaker" "Silver Fang" "Relentless Fury" "Wretch of the Void" "Iron Wail" "Vassal's Revenge" "Feral Strike" "Huntscar" "Terrorclaw" "Iron Reaver" "Hunter's Bane" "Warden of Vissarion" "Crimson Fang" "Howling Marauder" "Searstone" "Duskseeker" "Ragebreaker" "Silent Fang" "Emberstrike" "Vengeful Tail" "Echo of the Clans" "Fang Reaper" }
+		generic =  { "X" }
 
 		corvette = {}
 
@@ -42,7 +42,7 @@ sirius_sector_ratman = {
 	}
 
 	fleet_names = {
-		random_names = { "The Dark Claw Fleet" "Iron Fang Armada" "Clan Marauders" "Skrathar's Wrath" "Vissarion's Vengeance" "The Silent Vengeance" "Ashfang Coalition" "Feral Unity" "Storm of Vissarion" "The Lost Hunters" "The Pack's Wrath" "Nightclaw Raiders" "The Iron Horde" "Clan Warpath" "Wretched Fury" "The Raven's Talon" "Skrathar's Fury" "The Feral Fleet" "The Wretched Pack" "Vorrik's Scavengers" "Doomclaw Fleet" "The Ghostwalkers" "Thornshadow Armada" "Stormclaw Raiders" "Gritfang's Reavers" "Huntsmen of Vissarion" "Grimfangs" "Talon's Fury" "Ravaged Fleet" "Searing Fang Armada" "Raiders of the Wastes" "Hunting Pack" "The Red Tails" "Shadowclaw Fleet" "Storm Talons" "Warchasers" "Voidborn Fangs" "The Vissarion Marauders" "The Thrashed Hides" }
+		random_names = { "X" }
 		sequential_name = "%O% Formation"
 	}
 
@@ -142,7 +142,7 @@ sirius_sector_ratman = {
 	planet_names = {
 
 		generic = {
-		    names = { "Vissarion" "Khazra" "Karnath" "Zorath" "Brassik" "Falkris" "Ralvok" "Tarnath" "Norrin" "Korzil" "Yllarion" "Heskar" "Vadris" "Levikar" "Miktran" "Pha'lar" "Tholvan" "Gorvik" "Solaris" "Zhinra" "Ykanth" "Vallorn" "Welkta" "Durvan" "Jakkar" "Votrel" "Heslar" "Thyra" "Zarkis" "Rhosar" "Zarithon" }
+		    names = { "X" }
 		}
 
 		pc_desert = { names = {} }
@@ -173,9 +173,9 @@ sirius_sector_ratman = {
 
 		names1 = {
 			weight = 40
-			first_names_male = { "Verktarr" "Gorvak" "Thyrrak" "Torvok" "Vrakthar" "Karran" "Mavrek" "Draxxus" "Zarvok" "Skrathar" "Krivak" "Xorven" "Tragan" "Varok" "Torek" }
-			first_names_female = { "Fennira" "Lurvani" "Xalza" "Rixda" "Havrika" "Zarila" "Vithra" "Ustra" "Dramira" "Skyrana" "Vesla" "Korvra" "Taela" "Nora" "Vastira" }
-			second_names = { "Skrathar" "Ironclaw" "Stormfang" "Thorntail" "Redfang" "Vurr" "Krell" "Fangtail" "Ashfang" "Skaar" "Darkseer" "Talon" "Swampfoot" "Thornclaw" "Skullrender" }
+            first_names_male = { "X" }
+            first_names_female = { "X" }
+            second_names = { "X" }
 			regnal_first_names_male = {}
 			regnal_first_names_female = {}
 			regnal_second_names = {}

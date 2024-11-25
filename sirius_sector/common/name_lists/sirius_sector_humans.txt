@@ -1,0 +1,184 @@
+﻿### Saurian
+### Created by Moritz
+
+sirius_sector_hdfhumans = {
+	category = "Humanoid"
+	customize_random_override = HDF1
+	randomized = no
+	alias = "HdfHumans1"
+
+	ship_names = {
+
+		generic = { "Vanguard", "Defender", "Excalibur", "Resolute", "Aegis", "Sentinel", "Liberator", "Dominion", "Ares", "Eagle", "Revenant", "Sovereign", "Paladin", "Titan", "Rogue Star", "Champion", "Ascendant", "Endeavor", "Phoenix", "Nemesis", "Invictus", "Gallant", "Enforcer", "Warrior", "Centurion", "Horizon", "Intrepid", "Radiance", "Vanguard-Class", "Valor", "Conqueror", "Talon", "Perseverance", "Specter", "Thunderstrike", "Striker", "Bastion", "Defiant", "Archangel", "Thunderbird", "Vanguard-Class II", "Ironclad" }
+
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		titan = {}
+
+		colossus = {}
+
+		juggernaut = {}
+
+		science = {}
+
+		colonizer = {}
+
+		sponsored_colonizer = {}
+
+		constructor = {}
+
+		transport = {}
+
+		military_station_small = {}
+
+		ion_cannon = {}
+
+	}
+
+	fleet_names = {
+		random_names = { "First Fleet", "Second Fleet", "Defensive Fleet", "Strike Fleet", "Sirius Expeditionary Fleet", "Solemn Force", "Crusader Fleet", "Guardians of Sirius", "Celestial Fleet", "Liberation Fleet", "Alliance Vanguard", "Recon Fleet", "Expeditionary Fleet", "Sirius Defense Fleet", "The Iron Guard", "Royal Fleet", "Xenocide Fleet", "Wolfpack Fleet", "Phoenix Wing", "Stormwatch Fleet", "Unyielding Fleet", "Tempest Fleet", "Silent Watch", "Blaze Fleet", "Battle Group Valiant", "Starborne Fleet", "Celestial Protectorate", "Thunderstrike Fleet", "Midnight Fleet", "Stalwart Fleet", "Lance Fleet", "Harbinger Fleet", "Pride of Sirius", "Fortress Fleet", "Unbroken Fleet", "Warlord Fleet", "Reclaimer Fleet", "Eclipse Fleet", "Legion Fleet" }
+		sequential_name = "%O% Formation"
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_defense = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		machine_assault_1 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_2 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		machine_assault_3 = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		defense_army = {
+			sequential_name = DWARF1_LIMITANEI
+		}
+
+		assault_army = {
+			sequential_name = DWARF1_LEGIO
+		}
+
+		slave_army = {
+			sequential_name = DWARF1_AUXILIA
+		}
+
+		clone_army = {
+			sequential_name = DWARF1_CLONANDI
+		}
+
+		undead_army = {
+			sequential_name = DWARF1_LEGIOHORRORIAE
+		}
+
+		robotic_army = {
+			sequential_name = DWARF1_ROBOTUM
+		}
+
+		robotic_defense_army = {
+			sequential_name = DWARF1_LIMITANEIROBOTUM
+		}
+
+		psionic_army = {
+			sequential_name = DWARF1_LEGIOPSYCHICA
+		}
+
+		xenomorph_army = {
+			sequential_name = DWARF1_BESTIAAUXILIA
+		}
+
+		gene_warrior_army = {
+			sequential_name = DWARF1_LEGIOPRAETORIAE
+		}
+
+		occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = DWARF1_COHORTVIGILUM
+		}
+
+		robotic_occupation_army = {
+			sequential_name = DWARF1_ROBOTUMVIGILUM
+		}
+
+		primitive_army = {
+			sequential_name = DWARF1_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = DWARF1_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = DWARF1_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+		    names = { "Haven Prime", "Paxos", "Arcadia", "Fornax", "Vespera", "Talos", "Nyx", "Solace", "Aeternis", "Vega", "Hesperides", "Neptus", "Sibyl", "Mimir", "Valhalla", "Aurora", "Regalis", "Elysium", "Gryphos", "Oberon", "Glacius", "Cytherea", "Aeolis", "Centauri", "Icarus", "Delta-7", "Helios", "Vortex", "Orion", "Zeta Prime", "Caliban", "Triton", "Sycorax", "Sothis", "Exodus", "Aquila", "Epsilon-3", "Prometheus", "Talon Prime", "Atrox", "Ascendant", "Iskander" }
+		}
+
+		pc_desert = { names = {} }
+
+		pc_tropical = { names = {} }
+
+		pc_arid = { names = {} }
+
+		pc_continental = { names = {} }
+
+		pc_gaia = { names = {} }
+
+		pc_ocean = { names = {} }
+
+		pc_tundra = { names = {} }
+
+		pc_arctic = { names = {} }
+
+		pc_savannah = { names = {} }
+
+		pc_alpine = { names = {} }
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+            first_names_male = { "Alex", "James", "Ethan", "Lucas", "Daniel", "Michael", "William", "Jack", "David", "John", "Joshua", "Matthew", "Benjamin", "Samuel", "Nathan", "Chris", "Ryan", "Zachary", "Andrew", "Tyler", "Charles", "Kyle", "Aaron", "Mark", "Jordan", "Joseph", "Adam", "Thomas", "Cameron", "Dylan", "Alexander", "Robert", "Steven", "Henry", "Leo", "Ryan", "Isaac", "Oliver", "Jason", "Maximus", "Victor" }
+            first_names_female = { "Sophia", "Olivia", "Emma", "Isabella", "Ava", "Mia", "Amelia", "Harper", "Evelyn", "Abigail", "Ella", "Grace", "Chloe", "Lily", "Emily", "Aria", "Charlotte", "Madison", "Sophie", "Aurora", "Nora", "Layla", "Zoe", "Hannah", "Maya", "Ella", "Violet", "Savannah", "Audrey", "Claire", "Lucy", "Ruby", "Ella", "Victoria", "Lillian", "Leah", "Anna", "Scarlett", "Eleanor", "Avery", "Megan", "Holly" }
+            second_names = { "Vasquez", "Stroud", "Hawke", "Knight", "Morrison", "Blackwood", "Davenport", "Frost", "Calhoun", "Wright", "Bennett", "Reynolds", "Anderson", "Hunter", "Evans", "Drake", "Callahan", "Miller", "Garcia", "Jameson", "Thorne", "Harrison", "Ellis", "Montgomery", "Taylor", "Edwards", "Baxter", "Sullivan", "Vaughn", "Roberts", "Pierce", "Barrett", "Burns", "Davis", "Kelley", "Parker", "Simmons", "Chavez", "Wallace", "Banks", "Reeves", "Mason", "Collins", "Snyder", "Moreno" }
+			regnal_first_names_male = {}
+			regnal_first_names_female = {}
+			regnal_second_names = {}
+		}
+	}
+}
