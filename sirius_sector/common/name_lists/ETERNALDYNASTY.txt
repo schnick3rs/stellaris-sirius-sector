@@ -1,7 +1,7 @@
 ﻿### Alien Hives
 ### Created by Moritz
 
-ETERNALDYNASTYS = {
+ETERNALDYNASTY = {
 
     selectable = { always = yes }
 
