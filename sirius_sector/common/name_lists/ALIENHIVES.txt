@@ -1,11 +1,9 @@
 ﻿### Alien Hives
 ### Created by Moritz
 
-sirius_sector_alienhives = {
-	category = "Reptilian"
-	customize_random_override = ALI1
-	randomized = no
-	alias = "Alien1"
+ALIENHIVES = {
+
+    selectable = { always = yes }
 
 	ship_names = {
 

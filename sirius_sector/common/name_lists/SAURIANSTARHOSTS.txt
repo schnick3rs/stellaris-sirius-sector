@@ -1,11 +1,9 @@
 ﻿### Saurian
 ### Created by Moritz
 
-sirius_sector_saurian = {
-	category = "Reptilian"
-	customize_random_override = SAU1
-	randomized = no
-	alias = "Saurian1"
+SAURIANSTARHOSTS = {
+
+    selectable = { always = yes }
 
 	ship_names = {
 

@@ -1,11 +1,9 @@
 ﻿### Rebel Guerrillas
 ### Created by Moritz
 
-sirius_sector_rebels = {
-	category = "Humanoid"
-	customize_random_override = REB1
-	randomized = no
-	alias = "Rebels1"
+REBELGUERRILLAS = {
+
+    selectable = { always = yes }
 
 	ship_names = {
 

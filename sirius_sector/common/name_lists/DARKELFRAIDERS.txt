@@ -1,11 +1,9 @@
-﻿### Saurian
+﻿### Dark Elf Raiders
 ### Created by Moritz
 
-sirius_sector_darkelven = {
-	category = "Humanoid"
-	customize_random_override = DAR1
-	randomized = no
-	alias = "DarkElvish1"
+DARKELFRAIDERS = {
+
+    selectable = { always = yes }
 
 	ship_names = {
 

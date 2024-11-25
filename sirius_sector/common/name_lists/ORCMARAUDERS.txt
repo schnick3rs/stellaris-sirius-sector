@@ -1,11 +1,9 @@
-﻿### Ork
+﻿### Orc Marauders
 ### Created by Moritz
 
-sirius_sector_orcish = {
-	category = "Humanoid"
-	customize_random_override = DWA1
-	randomized = no
-	alias = "Dwarf1"
+ORCMARAUDERS = {
+
+    selectable = { always = yes }
 
 	ship_names = {
 

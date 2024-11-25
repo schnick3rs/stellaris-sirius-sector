@@ -1,7 +1,7 @@
-﻿### Saurian
+﻿### Human Defence Force
 ### Created by Moritz
 
-sirius_sector_hdfhumans = {
+HUMANDEFENCEFORCE = {
 
     selectable = { always = yes }
 
