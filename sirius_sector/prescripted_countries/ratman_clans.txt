@@ -111,6 +111,10 @@
 		evolution_mask=0
 		attachment=0
 		clothes=0
+        ruler_title="High Councilor"
+        heir_title="High Apprentice"
+        ruler_title_female="High Councilor"
+        heir_title_female="Apprentice"
 		trait="leader_trait_spycraft"
 		leader_class="official"
 	}
