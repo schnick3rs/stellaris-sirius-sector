@@ -24,7 +24,7 @@
 			key="Dwarven"
 			literal=yes
 		}
-		name_list="HUM2"
+		name_list="DWARFGUILDS"
 		gender=not_set
 		trait="trait_cave_dweller"
 		trait="trait_natural_engineers"

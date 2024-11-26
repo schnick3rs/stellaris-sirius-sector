@@ -7,7 +7,9 @@ RATMANCLANS = {
 
 	ship_names = {
 
-		generic =  { "The Scavenger's Wrath" "Razorback" "Clanwarrior" "Vissarion's Pride" "Darkslaughter" "Fangstorm" "Ironclaw" "Starborn Hunt" "Scrap Marauder" "The Last Flee" "Gritfang" "Varran Hunter" "Dreadflame" "The Wretched Fang" "Thornshard" "Nightsworn" "Shattered Howl" "Scavenger's Grin" "Ashblade" "Stormbreaker" "Silver Fang" "Relentless Fury" "Wretch of the Void" "Iron Wail" "Vassal's Revenge" "Feral Strike" "Huntscar" "Terrorclaw" "Iron Reaver" "Hunter's Bane" "Warden of Vissarion" "Crimson Fang" "Howling Marauder" "Searstone" "Duskseeker" "Ragebreaker" "Silent Fang" "Emberstrike" "Vengeful Tail" "Echo of the Clans" "Fang Reaper" }
+		generic =  {
+		    RATMANCLANS_SHIP_TheScavengersWrath RATMANCLANS_SHIP_Razorback RATMANCLANS_SHIP_Clanwarrior RATMANCLANS_SHIP_VissarionsPride RATMANCLANS_SHIP_Darkslaughter RATMANCLANS_SHIP_Fangstorm RATMANCLANS_SHIP_Ironclaw RATMANCLANS_SHIP_StarbornHunt RATMANCLANS_SHIP_ScrapMarauder RATMANCLANS_SHIP_TheLastFlee RATMANCLANS_SHIP_Gritfang RATMANCLANS_SHIP_VarranHunter RATMANCLANS_SHIP_Dreadflame RATMANCLANS_SHIP_TheWretchedFang RATMANCLANS_SHIP_Thornshard RATMANCLANS_SHIP_Nightsworn RATMANCLANS_SHIP_ShatteredHowl RATMANCLANS_SHIP_ScavengersGrin RATMANCLANS_SHIP_Ashblade RATMANCLANS_SHIP_Stormbreaker RATMANCLANS_SHIP_SilverFang RATMANCLANS_SHIP_Relentless RATMANCLANS_SHIP_WretchoftheVoid RATMANCLANS_SHIP_IronWail RATMANCLANS_SHIP_VassalsRevenge RATMANCLANS_SHIP_FeralStrike RATMANCLANS_SHIP_Huntscar RATMANCLANS_SHIP_Terrorclaw RATMANCLANS_SHIP_IronReaver RATMANCLANS_SHIP_HuntersBane RATMANCLANS_SHIP_WardenofVissarion RATMANCLANS_SHIP_CrimsonFang RATMANCLANS_SHIP_HowlingMarauder RATMANCLANS_SHIP_Searstone RATMANCLANS_SHIP_Duskseeker RATMANCLANS_SHIP_Ragebreaker RATMANCLANS_SHIP_Silent RATMANCLANS_SHIP_Emberstrike RATMANCLANS_SHIP_VengefulTail RATMANCLANS_SHIP_EchooftheClans RATMANCLANS_SHIP_FangReaper
+		}
 
 		corvette = {}
 
@@ -23,13 +25,19 @@ RATMANCLANS = {
 
 		juggernaut = {}
 
-		science = {}
+		science = {
+            "Mindflare Observatory" "Clawspire Research" "Insight Nexus" "Starfang Lab" "Voidseer Array" "Gleamspire Facility" "Aurora's Edge" "Chronovault" "Warren Research Complex" "Neuronexus"
+		}
 
-		colonizer = {}
+		colonizer = {
+            "Dawnforge Colony" "Haven's Landing" "Burrow Prime" "Unity Spire" "New Horizons Colony" "Frontier's Edge" "Fanghold Settlement" "Sanctuary's Reach" "Beacon's Dawn" "Verdant Claw"
+		}
 
 		sponsored_colonizer = {}
 
-		constructor = {}
+		constructor = {
+		    "Ironhold Fabricator" "Stoneweaver" "Forgeheart" "Steelclaw Constructor" "Warrenshaper" "Bastion Maker" "Gritforge" "Hammerclaw Assembly" "Burrowwright" "Deepforge Constructor"
+		}
 
 		transport = {}
 
@@ -40,94 +48,96 @@ RATMANCLANS = {
 	}
 
 	fleet_names = {
-		random_names = { "The Dark Claw Fleet" "Iron Fang Armada" "Clan Marauders" "Skrathar's Wrath" "Vissarion's Vengeance" "The Silent Vengeance" "Ashfang Coalition" "Feral Unity" "Storm of Vissarion" "The Lost Hunters" "The Pack's Wrath" "Nightclaw Raiders" "The Iron Horde" "Clan Warpath" "Wretched Fury" "The Raven's Talon" "Skrathar's Fury" "The Feral Fleet" "The Wretched Pack" "Vorrik's Scavengers" "Doomclaw Fleet" "The Ghostwalkers" "Thornshadow Armada" "Stormclaw Raiders" "Gritfang's Reavers" "Huntsmen of Vissarion" "Grimfangs" "Talon's Fury" "Ravaged Fleet" "Searing Fang Armada" "Raiders of the Wastes" "Hunting Pack" "The Red Tails" "Shadowclaw Fleet" "Storm Talons" "Warchasers" "Voidborn Fangs" "The Vissarion Marauders" "The Thrashed Hides" }
-		sequential_name = "%O% Formation"
+		random_names = {
+            RATMANCLANS_FLEET_TheDarkClawFleet RATMANCLANS_FLEET_IronFangArmada RATMANCLANS_FLEET_ClanMarauders RATMANCLANS_FLEET_SkratharsWrath RATMANCLANS_FLEET_VissarionsVengeance RATMANCLANS_FLEET_TheSilentVengeance RATMANCLANS_FLEET_AshfangCoalition RATMANCLANS_FLEET_FeralUnity RATMANCLANS_FLEET_StormofVissarion RATMANCLANS_FLEET_TheLostHunters RATMANCLANS_FLEET_ThePacksWrath RATMANCLANS_FLEET_NightclawRaiders RATMANCLANS_FLEET_TheIronHorde RATMANCLANS_FLEET_ClanWarpath RATMANCLANS_FLEET_WretchedFury RATMANCLANS_FLEET_TheRavensTalon RATMANCLANS_FLEET_SkratharsFury RATMANCLANS_FLEET_TheFeralFleet RATMANCLANS_FLEET_TheWretchedPack RATMANCLANS_FLEET_VorriksScavengers RATMANCLANS_FLEET_DoomclawFleet RATMANCLANS_FLEET_TheGhostwalkers RATMANCLANS_FLEET_ThornshadowArmada RATMANCLANS_FLEET_StormclawRaiders RATMANCLANS_FLEET_GritfangsReavers RATMANCLANS_FLEET_HuntsmenofVissarion RATMANCLANS_FLEET_Grimfangs RATMANCLANS_FLEET_TalonsFury RATMANCLANS_FLEET_RavagedFleet RATMANCLANS_FLEET_SearingFangArmada RATMANCLANS_FLEET_RaidersoftheWastes RATMANCLANS_FLEET_HuntingPack RATMANCLANS_FLEET_TheRedTails RATMANCLANS_FLEET_ShadowclawFleet RATMANCLANS_FLEET_StormTalons RATMANCLANS_FLEET_Warchasers RATMANCLANS_FLEET_VoidbornFangs RATMANCLANS_FLEET_TheVissarionMarauders RATMANCLANS_FLEET_TheThrashedHides
+		}
+		sequential_name = RATMANCLANS_FLEET_SEQUENTIAL
 	}
 
 	army_names = {
 
 		generic = {
-			sequential_name = DWARF1_LEGIO
+			sequential_name = RATMANCLANS_ARMY_GENERIC
 		}
 
 		machine_defense = {
-			sequential_name = DWARF1_LIMITANEI
+			sequential_name = RATMANCLANS_ARMY_GENERIC
 		}
 
 		machine_assault_1 = {
-			sequential_name = DWARF1_LEGIO
+			sequential_name = RATMANCLANS_ARMY_GENERIC
 		}
 
 		machine_assault_2 = {
-			sequential_name = DWARF1_LEGIO
+			sequential_name = RATMANCLANS_ARMY_GENERIC
 		}
 
 		machine_assault_3 = {
-			sequential_name = DWARF1_LEGIO
+			sequential_name = RATMANCLANS_ARMY_GENERIC
 		}
 
 		defense_army = {
-			sequential_name = DWARF1_LIMITANEI
+			sequential_name = RATMANCLANS_ARMY_GENERIC
 		}
 
 		assault_army = {
-			sequential_name = DWARF1_LEGIO
+			sequential_name = RATMANCLANS_ARMY_GENERIC
 		}
 
 		slave_army = {
-			sequential_name = DWARF1_AUXILIA
+			sequential_name = RATMANCLANS_ARMY_SLAVES
 		}
 
 		clone_army = {
-			sequential_name = DWARF1_CLONANDI
+			sequential_name = RATMANCLANS_ARMY_CLONES
 		}
 
 		undead_army = {
-			sequential_name = DWARF1_LEGIOHORRORIAE
+			sequential_name = RATMANCLANS_ARMY_UNDEAD
 		}
 
 		robotic_army = {
-			sequential_name = DWARF1_ROBOTUM
+			sequential_name = RATMANCLANS_ARMY_ROBOTIC
 		}
 
 		robotic_defense_army = {
-			sequential_name = DWARF1_LIMITANEIROBOTUM
+			sequential_name = RATMANCLANS_ARMY_ROBOTIC
 		}
 
 		psionic_army = {
-			sequential_name = DWARF1_LEGIOPSYCHICA
+			sequential_name = RATMANCLANS_ARMY_PSIONIC
 		}
 
 		xenomorph_army = {
-			sequential_name = DWARF1_BESTIAAUXILIA
+			sequential_name = RATMANCLANS_ARMY_XENOMORPH
 		}
 
 		gene_warrior_army = {
-			sequential_name = DWARF1_LEGIOPRAETORIAE
+			sequential_name = RATMANCLANS_ARMY_CLONES
 		}
 
 		occupation_army = {
-			sequential_name = DWARF1_COHORTVIGILUM
+			sequential_name = RATMANCLANS_ARMY_OCCUPATION
 		}
 
 		individual_machine_occupation_army = {
-			sequential_name = DWARF1_COHORTVIGILUM
+			sequential_name = RATMANCLANS_ARMY_OCCUPATION
 		}
 
 		robotic_occupation_army = {
-			sequential_name = DWARF1_ROBOTUMVIGILUM
+			sequential_name = RATMANCLANS_ARMY_OCCUPATION
 		}
 
 		primitive_army = {
-			sequential_name = DWARF1_PRIMITIVEARMY
+			sequential_name = RATMANCLANS_ARMY_PRIMITIVE
 		}
 
 		industrial_army = {
-			sequential_name = DWARF1_INDUSTRIALARMY
+			sequential_name = RATMANCLANS_ARMY_INDUSTRIAL
 		}
 
 		postatomic_army = {
-			sequential_name = DWARF1_POSTATOMICARMY
+			sequential_name = RATMANCLANS_ARMY_POSTATOMIC
 		}
 
 		warpling_army = {
@@ -140,7 +150,9 @@ RATMANCLANS = {
 	planet_names = {
 
 		generic = {
-		    names = { "Vissarion" "Khazra" "Karnath" "Zorath" "Brassik" "Falkris" "Ralvok" "Tarnath" "Norrin" "Korzil" "Yllarion" "Heskar" "Vadris" "Levikar" "Miktran" "Pha'lar" "Tholvan" "Gorvik" "Solaris" "Zhinra" "Ykanth" "Vallorn" "Welkta" "Durvan" "Jakkar" "Votrel" "Heslar" "Thyra" "Zarkis" "Rhosar" "Zarithon" }
+		    names = {
+                RATMANCLANS_PLANETS_Sanctuary:0 "Sanctuary" RATMANCLANS_PLANETS_Refuge:0 "Refuge" RATMANCLANS_PLANETS_Freedom's Reach:0 "Freedom's Reach" RATMANCLANS_PLANETS_LiberisMinor:0 "Liberis Minor" RATMANCLANS_PLANETS_Safehaven:0 "Safehaven" RATMANCLANS_PLANETS_Fanghold:0 "Fanghold" RATMANCLANS_PLANETS_NewDawn:0 "New Dawn" RATMANCLANS_PLANETS_Unity:0 "Unity" RATMANCLANS_PLANETS_Salvation:0 "Salvation" RATMANCLANS_PLANETS_Freehold Nexus:0 "Freehold Nexus" RATMANCLANS_PLANETS_Oasis:0 "Oasis" RATMANCLANS_PLANETS_HopesAscent:0 "Hope's Ascent" RATMANCLANS_PLANETS_Vigilance:0 "Vigilance" RATMANCLANS_PLANETS_SheltersEnd:0 "Shelter's End" RATMANCLANS_PLANETS_Deliverance:0 "Deliverance" RATMANCLANS_PLANETS_Hearthstone:0 "Hearthstone" RATMANCLANS_PLANETS_Dawnspire:0 "Dawnspire" RATMANCLANS_PLANETS_ValorsRest:0 "Valor's Rest" RATMANCLANS_PLANETS_Shatterchain:0 "Shatterchain" RATMANCLANS_PLANETS_NewHorizons:0 "New Horizons" RATMANCLANS_PLANETS_Redemption:0 "Redemption" RATMANCLANS_PLANETS_BeaconsLight:0 "Beacon's Light" RATMANCLANS_PLANETS_Havenhold:0 "Havenhold" RATMANCLANS_PLANETS_FortressofHope:0 "Fortress of Hope" RATMANCLANS_PLANETS_Clawhaven:0 "Clawhaven" RATMANCLANS_PLANETS_LastBastion:0 "Last Bastion" RATMANCLANS_PLANETS_LibertyPrime:0 "Liberty Prime" RATMANCLANS_PLANETS_Solace:0 "Solace" RATMANCLANS_PLANETS_Tranquil old:0 "Tranquil Hold" RATMANCLANS_PLANETS_Breakwater:0 "Breakwater" RATMANCLANS_PLANETS_StarlightRefuge:0 "Starlight Refuge" RATMANCLANS_PLANETS_FreedomsGate:0 "Freedom's Gate" RATMANCLANS_PLANETS_Ascent:0 "Ascent" RATMANCLANS_PLANETS_Havenrise:0 "Havenrise" RATMANCLANS_PLANETS_LiberationsClaim:0 "Liberation's Claim" RATMANCLANS_PLANETS_Fangspire:0 "Fangspire" RATMANCLANS_PLANETS_Safeclaw:0 "Safeclaw" RATMANCLANS_PLANETS_RadiantRefuge:0 "Radiant Refuge"
+		    }
 		}
 
 		pc_desert = { names = {} }
@@ -169,14 +181,25 @@ RATMANCLANS = {
 
 	character_names = {
 
-		names1 = {
-			weight = 40
-			first_names_male = { "Verktarr" "Gorvak" "Thyrrak" "Torvok" "Vrakthar" "Karran" "Mavrek" "Draxxus" "Zarvok" "Skrathar" "Krivak" "Xorven" "Tragan" "Varok" "Torek" }
-			first_names_female = { "Fennira" "Lurvani" "Xalza" "Rixda" "Havrika" "Zarila" "Vithra" "Ustra" "Dramira" "Skyrana" "Vesla" "Korvra" "Taela" "Nora" "Vastira" }
-			second_names = { "Skrathar" "Ironclaw" "Stormfang" "Thorntail" "Redfang" "Vurr" "Krell" "Fangtail" "Ashfang" "Skaar" "Darkseer" "Talon" "Swampfoot" "Thornclaw" "Skullrender" }
-			regnal_first_names_male = {}
-			regnal_first_names_female = {}
-			regnal_second_names = {}
+		default = {
+			first_names_male = {
+                RATMANCLANS_CHR_Verktarr RATMANCLANS_CHR_Gorvak RATMANCLANS_CHR_Thyrrak RATMANCLANS_CHR_Torvok RATMANCLANS_CHR_Vrakthar RATMANCLANS_CHR_Karran RATMANCLANS_CHR_Mavrek RATMANCLANS_CHR_Draxxus RATMANCLANS_CHR_Zarvok RATMANCLANS_CHR_Skrathar RATMANCLANS_CHR_Krivak RATMANCLANS_CHR_Xorven RATMANCLANS_CHR_Tragan RATMANCLANS_CHR_Varok RATMANCLANS_CHR_Torek
+            }
+			first_names_female = {
+			    RATMANCLANS_CHR_Fennira RATMANCLANS_CHR_Lurvani RATMANCLANS_CHR_Xalza RATMANCLANS_CHR_Rixda RATMANCLANS_CHR_Havrika RATMANCLANS_CHR_Zarila RATMANCLANS_CHR_Vithra RATMANCLANS_CHR_Ustra RATMANCLANS_CHR_Dramira RATMANCLANS_CHR_Skyrana RATMANCLANS_CHR_Vesla RATMANCLANS_CHR_Korvra RATMANCLANS_CHR_Taela RATMANCLANS_CHR_Nora RATMANCLANS_CHR_Vastira
+            }
+			second_names = {
+                RATMANCLANS_CHR_Skrathar RATMANCLANS_CHR_Ironclaw RATMANCLANS_CHR_Stormfang RATMANCLANS_CHR_Thorntail RATMANCLANS_CHR_Redfang RATMANCLANS_CHR_Vurr RATMANCLANS_CHR_Krell RATMANCLANS_CHR_Fangtail RATMANCLANS_CHR_Ashfang RATMANCLANS_CHR_Skaar RATMANCLANS_CHR_Darkseer RATMANCLANS_CHR_Talon RATMANCLANS_CHR_Swampfoot RATMANCLANS_CHR_Thornclaw RATMANCLANS_CHR_Skullrender
+            }
+			regnal_first_names_male = {
+			    RATMANCLANS_CHR_Verktarr RATMANCLANS_CHR_Gorvak RATMANCLANS_CHR_Thyrrak
+			}
+			regnal_first_names_female = {
+			    RATMANCLANS_CHR_Fennira RATMANCLANS_CHR_Lurvani RATMANCLANS_CHR_Xalza
+			}
+			regnal_second_names = {
+			    RATMANCLANS_CHR_Skrathar RATMANCLANS_CHR_Ironclaw RATMANCLANS_CHR_Stormfang
+			}
 		}
 	}
 }
