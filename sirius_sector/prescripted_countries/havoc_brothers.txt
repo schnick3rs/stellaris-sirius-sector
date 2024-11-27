@@ -1,0 +1,611 @@
+"Disciples of War"=
+{
+	key="Disciples of War"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_04"
+		species_name=
+		{
+			key="Havoc Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Havoc Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Havoc Brother"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="NECROID1"
+		gender=male
+		trait="trait_juiced_power"
+		trait="trait_humanoid_jinxed"
+		trait="trait_strong"
+		trait="trait_gene_mentorship"
+	}
+	name=
+	{
+		key="Disciples of War"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Havoc Brother"
+				}
+			}
+
+		}
+	}
+	authority="auth_imperial"
+	government="gov_martial_empire"
+	planet_name=
+	{
+		key="SPEC_Yastun_planet"
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="SPEC_Yastun_system"
+	}
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="toxoid"
+			file="toxoid_05.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="diagonal_stripe.dds"
+		}
+		colors=
+		{
+			"red"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_04"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_overtuned"
+}
+"Disciples of Plague"=
+{
+	key="Disciples of Plague"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_04"
+		species_name=
+		{
+			key="Havoc Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Havoc Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Havoc Brother"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="NECROID1"
+		gender=male
+		trait="trait_juiced_power"
+		trait="trait_humanoid_jinxed"
+		trait="trait_strong"
+		trait="trait_spliced_adaptability"
+	}
+	name=
+	{
+		key="Disciples of Plague"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Havoc Brother"
+				}
+			}
+
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_grim_council"
+	planet_name=
+	{
+		key="SPEC_Yastun_planet"
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="SPEC_Yastun_system"
+	}
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="toxoid"
+			file="toxoid_07.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_27.dds"
+		}
+		colors=
+		{
+			"swamp_green"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_04_male_01"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_reanimated_armies"
+		"civic_death_cult"
+	}
+	origin="origin_overtuned"
+}
+"Disciples of Lust"=
+{
+	key="Disciples of Lust"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_04"
+		species_name=
+		{
+			key="Havoc Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Havoc Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Havoc Brother"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="NECROID1"
+		gender=male
+		trait="trait_juiced_power"
+		trait="trait_humanoid_jinxed"
+		trait="trait_crafted_smiles"
+		trait="trait_expressed_tradition"
+	}
+	name=
+	{
+		key="Disciples of Lust"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Havoc Brother"
+				}
+			}
+
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	planet_name=
+	{
+		key="SPEC_Yastun_planet"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="SPEC_Yastun_system"
+	}
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="toxoid"
+			file="toxoid_04.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_42.dds"
+		}
+		colors=
+		{
+			"light_pink"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_04_male_01"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_pleasure_seekers"
+		"civic_ascensionists"
+	}
+	origin="origin_overtuned"
+}
+"Disciples of Change"=
+{
+	key="Disciples of Change"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_04"
+		species_name=
+		{
+			key="Havoc Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Havoc Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Havoc Brother"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="NECROID1"
+		gender=male
+		trait="trait_juiced_power"
+		trait="trait_humanoid_jinxed"
+		trait="trait_artificial_intelligence"
+		trait="trait_intelligent"
+		trait="trait_slow_learners"
+	}
+	name=
+	{
+		key="Disciples of Change"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Havoc Brother"
+				}
+			}
+
+		}
+	}
+	authority="auth_democratic"
+	government="gov_dimensional_covenant"
+	planet_name=
+	{
+		key="SPEC_Yastun_planet"
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="SPEC_Yastun_system"
+	}
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="toxoid"
+			file="toxoid_06.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="double_hemispheres.dds"
+		}
+		colors=
+		{
+			"intense_purple"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_04_male_01"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_dimensional_worship"
+		"civic_shadow_council"
+	}
+	origin="origin_overtuned"
+}

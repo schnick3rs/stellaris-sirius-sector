@@ -1,0 +1,1083 @@
+"Blood of the Conduit"=
+{
+	key="Blood of the Conduit"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Battle Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Battle Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Battle Brothers"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_clone_soldier_infertile"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Blood of the Conduit"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Battle Brothers"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_imperial"
+	government="gov_mortal_empire"
+	planet_name=
+	{
+		key="SPEC_Bebaki_planet"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="SPEC_Bebaki_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_4.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_27.dds"
+		}
+		colors=
+		{
+			"black"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_death_cult"
+	}
+	origin="origin_clone_army"
+}
+"Howl of the Conduit"=
+{
+	key="Howl of the Conduit"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Battle Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Battle Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Battle Brothers"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_clone_soldier_infertile"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Howl of the Conduit"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Battle Brothers"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	planet_name=
+	{
+		key="SPEC_Alari_planet"
+	}
+	planet_class="pc_arctic"
+	system_name=
+	{
+		key="SPEC_Alari_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_14.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"black"
+			"intense_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_heroic_tales"
+	}
+	origin="origin_clone_army"
+}
+"Whisper of the Conduit"=
+{
+	key="Whisper of the Conduit"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Battle Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Battle Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Battle Brothers"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_clone_soldier_infertile"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Whisper of the Conduit"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Battle Brothers"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_war_council"
+	planet_name=
+	{
+		key="SPEC_Hesukar_planet"
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="SPEC_Hesukar_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_3.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors=
+		{
+			"black"
+			"dark_green"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_shadow_council"
+	}
+	origin="origin_clone_army"
+}
+"Eye of the Conduit"=
+{
+	key="Eye of the Conduit"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Battle Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Battle Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Battle Brothers"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_clone_soldier_infertile"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Eye of the Conduit"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Battle Brothers"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_war_council"
+	planet_name=
+	{
+		key="SPEC_KhellZen_planet"
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="SPEC_KhellZen_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_15.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_39.dds"
+		}
+		colors=
+		{
+			"black"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_memory_vault"
+	}
+	origin="origin_clone_army"
+}
+"Knights of the Conduit"=
+{
+	key="Knights of the Conduit"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Battle Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Battle Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Battle Brothers"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_clone_soldier_infertile"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Knights of the Conduit"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Battle Brothers"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	planet_name=
+	{
+		key="SPEC_Korinth_planet"
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="SPEC_Korinth_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_9.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors=
+		{
+			"black"
+			"hard_steel"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_exalted_priesthood"
+	}
+	origin="origin_clone_army"
+}
+"Forge of the Conduit"=
+{
+	key="Forge of the Conduit"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Battle Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Battle Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Battle Brothers"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_clone_soldier_infertile"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Forge of the Conduit"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Battle Brothers"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_democratic"
+	government="gov_assembly_of_clans"
+	planet_name=
+	{
+		key="SPEC_Korinth_planet"
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="SPEC_Korinth_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_23.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors=
+		{
+			"red"
+			"sick_green"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_crafters"
+	}
+	origin="origin_clone_army"
+}
+"Scars of the Conduit"=
+{
+	key="Scars of the Conduit"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Battle Brother"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Battle Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="Battle Brothers"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_clone_soldier_infertile"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Scars of the Conduit"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="Battle Brothers"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_imperial"
+	government="gov_martial_empire"
+	planet_name=
+	{
+		key="SPEC_Korinth_planet"
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="SPEC_Korinth_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_17.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors=
+		{
+			"off_white"
+			"intense_red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Lucius"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Valerius"
+						}
+					}
+
+				}
+			}
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_beastmasters"
+	}
+	origin="origin_clone_army"
+}

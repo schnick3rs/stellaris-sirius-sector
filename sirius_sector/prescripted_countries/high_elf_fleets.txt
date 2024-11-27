@@ -1,0 +1,156 @@
+"High Elf Fleet"=
+{
+	key="High Elf Fleet"
+	ship_prefix=
+	{
+		key="HEF"
+		literal=yes
+	}	species=
+	{
+		class="HUM"
+		portrait="humanoid_05"
+		species_name=
+		{
+			key="High Elf"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Hig Elves"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+
+				{
+					key="adjective"
+					value=
+					{
+						key="High Elf"
+						literal=yes
+					}
+				}
+
+			}
+		}
+		name_list="AVI4"
+		gender=not_set
+		trait="trait_void_dweller_1"
+		trait="trait_intelligent"
+		trait="trait_weak"
+		trait="trait_decadent"
+		trait="trait_traditional"
+		trait="trait_natural_physicists"
+	}
+	name=
+	{
+		key="High Elf Fleet"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+
+			{
+				key="adjective"
+				value=
+				{
+					key="High Elf"
+				}
+			}
+
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	advisor_voice_type="l_spiritualist"
+	planet_name=
+	{
+		key="SPEC_Imari_planet"
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="SPEC_Imari_system"
+	}
+	initializer="void_dweller_system"
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_4.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_10.dds"
+		}
+		colors=
+		{
+			"bright_yellow"
+			"intense_red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="AVI4_CHR_Koraci"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="AVI4_CHR_Alvie"
+						}
+					}
+
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="humanoid_05_female_01"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_aristocratic_elite"
+		"civic_heroic_tales"
+	}
+	origin="origin_void_dwellers"
+}

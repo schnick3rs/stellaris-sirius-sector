@@ -132,3 +132,137 @@
 	}
 	origin="origin_broken_shackles"
 }
+"Ratman Vengence Clans"=
+{
+	key="Ratman Vengence Clans"
+	ship_prefix=
+	{
+		key="RVC"
+		literal=yes
+	}
+	species=
+	{
+		class="MAM"
+		portrait="mam_rat"
+		species_name=
+		{
+			key="Ratman"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Ratmans"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Ratman"
+			literal=yes
+		}
+		name_list="RATMANCLANS"
+		gender=not_set
+		trait="trait_adaptive"
+		trait="trait_rapid_breeders"
+		trait="trait_weak"
+		trait="trait_humanoid_jinxed"
+	}
+	name=
+	{
+		key="Ratman Vengence Clans"
+		literal=yes
+	}
+	adjective=
+	{
+		key="Ratman"
+	}
+	authority="auth_democratic"
+	government="gov_military_commissariat"
+	planet_name=
+	{
+		key="Clawendark"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Vissarion"
+	}
+	initializer="custom_starting_init_01"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_4.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"black"
+			"turquoise"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+
+					{
+						key="1"
+						value=
+						{
+							key="RATMANCLANS_CHR_Verktarr"
+						}
+					}
+
+					{
+						key="2"
+						value=
+						{
+							key="RATMANCLANS_CHR_Ironclaw"
+						}
+					}
+
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="mam_rat"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+        ruler_title="High Councilor"
+        heir_title="High Apprentice"
+        ruler_title_female="High Councilor"
+        heir_title_female="Apprentice"
+		trait="leader_trait_spycraft"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_idealistic_foundation"
+		"civic_free_haven"
+	}
+	origin="origin_payback"
+}
